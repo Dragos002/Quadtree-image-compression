@@ -1,0 +1,20 @@
+	Pentru implementare am folosit atat structura din enunt precum si alte
+2 structuri numite node si square pentru usurinta.
+	Pentru prima cerinta am luat matricea data in fisierul de intrare si,
+pentru a construi arborele am creat o functie recursiva ce-mi imparte 
+matricea in cate 4 zone, folosindu-se de functia check pentru a verifica d
+aca "patratul" mai poate fii divizat sau din el se poate crea un nod frunza
+Dupa ce arborele a fost creat am efectuat o parcurgere prin care am 
+numerotat nodurile in ordine, aceasta ajutandu-ma la adaugarea nodurilor in 
+vector, tinand cont de indicele din vector al fiilor fiecarui nod in ordinea
+impusa.
+	A doua cerinta am rezolvat-o tot printr-o functie recursiva ce-mi 
+creaza din vectorul citit din fisierul de compresie un quadtree. Acesta 
+verifica daca elementele din vector sunt frunze pentru arbore, iar in caz
+negativ se va duce recursiv pe toti fii nodului creat. Dupa ce am obtinut
+arborele, tinand cont de size-ul fiecarui nod (dat de adancimea sa) am 
+completat matricea ceruta.
+	Ultimul task a fost rezolvat utilizand atat tasku-ul 1 cat si task-ul
+2, utilizand in mare parte aceleasi functii pe care le-am explicat mai sus, cu
+2 functii suplimentare care au ajutat la modificarea arborelui pe baza 
+regulilor deduse din pozele prezente in enuntul temei.
